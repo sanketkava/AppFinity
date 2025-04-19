@@ -60,7 +60,7 @@ function App() {
       <Blog />
       <CTA />
       <Contact openSuccessModal={openSuccessModal} />
-      <Footer />
+      {/* <Footer /> */}
       <ProjectModal
         isOpen={projectModal.open}
         closeModal={closeProjectModal}
