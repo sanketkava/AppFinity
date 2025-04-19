@@ -8,6 +8,7 @@ function Contact({ openSuccessModal }) {
     message: '',
   });
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false); // Loader state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,8 +18,9 @@ function Contact({ openSuccessModal }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Start loading
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://appapi1-m61g.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -37,6 +39,8 @@ function Contact({ openSuccessModal }) {
     } catch (err) {
       console.error('Error:', err);
       setError(err.message || 'Something went wrong. Please try again.');
+    } finally {
+      setLoading(false); // Stop loading
     }
   };
 
@@ -58,7 +62,7 @@ function Contact({ openSuccessModal }) {
                 {
                   icon: 'fas fa-map-marker-alt',
                   title: 'Our Office',
-                  description: '123 Tech Street, San Francisco, CA 94107',
+                  description: 'Mota Varachha, Surat , Gujarat, India',
                 },
                 {
                   icon: 'fas fa-envelope',
@@ -68,7 +72,7 @@ function Contact({ openSuccessModal }) {
                 {
                   icon: 'fas fa-phone-alt',
                   title: 'Call Us',
-                  description: '+1 (555) 123-4567',
+                  description: '+91 9978677047',
                 },
               ].map((item) => (
                 <div key={item.title} className="flex items-start">
@@ -165,8 +169,22 @@ function Contact({ openSuccessModal }) {
               </div>
               {error && <p className="text-red-400 text-sm">{error}</p>}
               <div>
-                <button type="submit" className="btn-primary w-full px-6 py-4 rounded-lg font-medium text-white">
-                  Send Message <i className="fas fa-paper-plane ml-2"></i>
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className={`btn-primary w-full px-6 py-4 rounded-lg font-medium text-white flex items-center justify-center ${
+                    loading ? 'opacity-60 cursor-not-allowed' : ''
+                  }`}
+                >
+                  {loading ? (
+                    <>
+                      <i className="fas fa-spinner fa-spin mr-2"></i> Sending...
+                    </>
+                  ) : (
+                    <>
+                      Send Message <i className="fas fa-paper-plane ml-2"></i>
+                    </>
+                  )}
                 </button>
               </div>
             </form>
