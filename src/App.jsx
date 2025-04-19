@@ -15,6 +15,7 @@ import ProjectModal from './components/ProjectModal';
 import SuccessModal from './components/SuccessModal';
 import BackToTop from './components/BackToTop';
 import BackgroundAnimation from './components/BackgroundAnimation';
+import Port from './components/Port';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -53,6 +54,7 @@ function App() {
       <About />
       {/* <Portfolio openProjectModal={openProjectModal} /> */}
       {/* <Portfolio openProjectModal={openProjectModal} /> */}
+      <Port openProjectModal={openProjectModal}/>
       <Testimonials />
       <Process />
       <Blog />
