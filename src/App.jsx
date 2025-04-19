@@ -51,7 +51,6 @@ function App() {
       <Services />
       <TechStack />
       <About />
-      {/* <Portfolio openProjectModal={openProjectModal} /> */}
       <Portfolio openProjectModal={openProjectModal} />
       <Testimonials />
       <Process />
