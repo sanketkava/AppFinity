@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import TechStack from './components/TechStack';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
 import Blog from './components/Blog';
@@ -15,6 +15,7 @@ import ProjectModal from './components/ProjectModal';
 import SuccessModal from './components/SuccessModal';
 import BackToTop from './components/BackToTop';
 import BackgroundAnimation from './components/BackgroundAnimation';
+import Port from './components/Port';
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -47,11 +48,13 @@ function App() {
     <div className="gradient-bg">
       <BackgroundAnimation />
       <Header isMobileMenuOpen={isMobileMenuOpen} toggleMobileMenu={toggleMobileMenu} />
-      <Hero />
+      <Hero/>
       <Services />
       <TechStack />
       <About />
-      <Portfolio openProjectModal={openProjectModal} />
+      {/* <Portfolio openProjectModal={openProjectModal} /> */}
+      {/* <Portfolio openProjectModal={openProjectModal} /> */}
+      <Port openProjectModal={openProjectModal}/>
       <Testimonials />
       <Process />
       <Blog />
