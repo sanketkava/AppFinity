@@ -16,9 +16,9 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-6 md:mb-0">
             <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 flex items-center justify-center overflow-hidden">
-              <img src="https://media-hosting.imagekit.io/f49a071856ca4012/Logo.png?Expires=1839515926&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zXHFT2wmboJBpr~D~UUvjLageyZ84tDA5kyIsoUNaXkG4Qz5Q2jI~b2i7aaAW5ZM3XCGtrQ7FKcodYaHyTwa115312Ox5OTWI7VQz~4WnWONv7I3zj6Exe6E7-xUP3LM9JkvNqX00ZdJn3JeUNCQN97P1do1b~30kv-iPD~m-TmMhOcvg~24CQDTbb-g8FVGK6lSnqq5MQHlDHsk0dGdmTQdGgj2WgRdSlU8wZHzjzAA3QzL76dH0JJHhwWgd2jkr656huYWQSoiGypIsQoiYiHcWSw6oAUwkhgQWpnUCPxkw23LCE9Motn4V7wEYDyG~AGtOyltd8w0Ojz-qE3uQw__" alt="Logo" className="w-full h-full object-cover" />
+              <img src="https://media-hosting.imagekit.io/df016d48ed2940a2/ChatGPT%20Image%20May%2011,%202025,%2002_09_11%20AM.png?Expires=1841517620&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nlxIwHhPg1wg1f9PjZ4vXm6WmQe7hzy5f3GAnFpti6w66jwCo~eVM~iyemJihIZu2G2nLHWJX8uXQsxbenA3WmJsBE~RWtXDLW99tGYS0~~g9hbCpBRGLukGZBhRt8FTlONTUi8stCwIR4gk4AeknwhKGS1oat75Wz3SrS3W076nJpGwBAf5pdkiqpYSrK0HvZfhVtz1i5wNnJcetVrxR6KlMbF5FF64rKmC1gO4qrof3zmVBoAQjCAXS6H2GdXtRtCh2dRyR4ieHM1KtwrKdKsFBEMQOPtSaKDuN92zbCMq47ipDGyp-J~H3nBxSLnuA5Fjm1A6VV-J9s4YBW3Ouw__" alt="Logo" className="w-full h-full object-cover" />
             </div>
-            <span className="text-xl font-bold text-gradient">Appfinity Tech</span>
+            <span className="text-xl font-bold text-gradient">Appfinity CyberTech</span>
           </div>
           <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-6 md:mb-0">
             {navLinks.map((link) => (
@@ -41,7 +41,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Appfinity Tech. All rights reserved.</p>
+          <p className="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Appfinity CyberTech. All rights reserved.</p>
           <div className="flex space-x-6">
             {['Privacy Policy', 'Terms of Service', 'Cookies'].map((link) => (
               <a key={link} href="#" className="text-gray-500 hover:text-gray-300 text-sm transition">

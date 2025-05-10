@@ -5,7 +5,7 @@ function Blog() {
     {
       title: 'React Native in 2023: What’s New and What’s Next',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-      date: 'June 15, 2023',
+      date: 'January 15, 2025',
       readTime: '8 min read',
       description:
         'Explore the latest features in React Native and how they’re shaping the future of cross-platform development.',
@@ -13,7 +13,7 @@ function Blog() {
     {
       title: 'Optimizing MERN Stack Applications for Performance',
       image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-      date: 'May 28, 2024',
+      date: 'May 1, 2025',
       readTime: '10 min read',
       description:
         'Proven techniques to improve the speed and efficiency of your MERN stack applications in production.',

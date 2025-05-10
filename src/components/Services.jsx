@@ -17,12 +17,71 @@ function Services() {
       color: 'emerald',
     },
     {
-      icon: 'fas fa-cogs',
-      title: 'Custom Solutions',
-      description: 'Tailored software solutions designed to address your unique business challenges and requirements.',
-      features: ['Business automation', 'Enterprise software', 'System integration'],
-      color: 'purple',
+      icon: 'fas fa-shield-alt',
+      title: 'Web Application VAPT',
+      description:
+        'Comprehensive security testing to identify vulnerabilities in web applications before attackers can exploit them.',
+      features: [
+        'OWASP Top 10 vulnerability testing',
+        'Authentication and authorization flaws',
+        'Business logic vulnerabilities',
+        'API security assessment'
+      ],
+      color: 'blue'
     },
+    {
+      icon: 'fas fa-mobile-alt',
+      title: 'Mobile Application VAPT',
+      description:
+        'Security testing for Android and iOS apps to ensure protection of sensitive user data.',
+      features: [
+        'Local data storage assessment',
+        'Client-side injection vulnerabilities',
+        'Authentication and session handling',
+        'Reverse engineering protection'
+      ],
+      color: 'teal'
+    },
+    {
+      icon: 'fas fa-network-wired',
+      title: 'Network Security Audit',
+      description:
+        'Thorough audit of your network infrastructure to find vulnerabilities and security gaps.',
+      features: [
+        'External and internal network scanning',
+        'Firewall and router configuration review',
+        'Wireless network assessment',
+        'VPN and remote access security'
+      ],
+      color: 'purple'
+    },
+    {
+      icon: 'fas fa-shield-virus',
+      title: 'Incident Response',
+      description:
+        'Fast and effective response to security incidents to minimize damage and recovery time.',
+      features: [
+        '24/7 emergency response',
+        'Breach containment and eradication',
+        'Forensic investigation',
+        'Post-incident recovery support'
+      ],
+      color: 'red'
+    },
+   
+    {
+      icon: 'fas fa-user-shield',
+      title: 'Cyber Awareness Training',
+      description:
+        'Train your teams to recognize and avoid security threats through tailored workshops.',
+      features: [
+        'Phishing awareness and simulations',
+        'Social engineering defense',
+        'Password security best practices',
+        'Policy compliance training'
+      ],
+      color: 'indigo'
+    }
   ];
 
   return (

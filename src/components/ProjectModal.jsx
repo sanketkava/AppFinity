@@ -41,7 +41,7 @@ function ProjectModal({ isOpen, closeModal, title, description, tech }) {
                 </div>
                 <div>
                   <h5 className="text-sm font-medium text-gray-400 mb-1">Year</h5>
-                  <p className="text-white">2023</p>
+                  <p className="text-white">2025</p>
                 </div>
                 <div>
                   <h5 className="text-sm font-medium text-gray-400 mb-1">Category</h5>
