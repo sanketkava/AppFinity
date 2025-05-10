@@ -67,7 +67,7 @@ function Contact({ openSuccessModal }) {
                 {
                   icon: 'fas fa-envelope',
                   title: 'Email Us',
-                  description: 'info@appfinitytech.com',
+                  description: 'appfinitycybertech@gmail.com',
                 },
                 {
                   icon: 'fas fa-phone-alt',
