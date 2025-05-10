@@ -13,7 +13,7 @@ function Blog() {
     {
       title: 'Optimizing MERN Stack Applications for Performance',
       image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-      date: 'May 28, 2023',
+      date: 'May 28, 2024',
       readTime: '10 min read',
       description:
         'Proven techniques to improve the speed and efficiency of your MERN stack applications in production.',
@@ -21,7 +21,7 @@ function Blog() {
     {
       title: 'Mobile UI Design Patterns That Improve Conversion',
       image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-      date: 'April 12, 2023',
+      date: 'April 12, 2025',
       readTime: '6 min read',
       description:
         'Discover the most effective mobile UI patterns that can significantly boost your app’s conversion rates.',
